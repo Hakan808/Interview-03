@@ -35,6 +35,7 @@ const GenerateList = () => {
   const handleNext = () => {
     
     if(index >= activity.length) return
+    setSelectedId(null)
     setIndex((prev) => prev + 1);
     setShow((pre) => [...pre, activity[index]]);
   };
