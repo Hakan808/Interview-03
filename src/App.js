@@ -45,7 +45,7 @@ const GenerateList = () => {
   return (
     <div>
       <button onClick={handleNext} className="btn next-btn">
-        Next Activity
+        Generate Activity
       </button>
       <div className="container">
         {show.map((item) => {
